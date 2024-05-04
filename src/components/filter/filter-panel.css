@@ -1,0 +1,10 @@
+.filter-panel {
+    background-color: var(--business-blue);
+    border-radius: 5px;
+    padding: 30px 30px;
+    color: #fff;
+    box-shadow: var(--default-shadow);
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}

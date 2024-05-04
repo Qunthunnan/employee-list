@@ -1,0 +1,15 @@
+.btn-group .btn {
+    flex: 0 1 auto;
+    background-color: var(--business-blue);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-group .btn:hover {
+    background-color: #fff;
+    color: var(--business-blue);
+}
+
+.btn-group .btn:active {
+    border: 1px solid var(--business-blue);
+}

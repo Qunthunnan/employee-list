@@ -1,0 +1,7 @@
+.company-info {
+    background-color: var(--business-blue);
+    border-radius: 5px;
+    padding: 50px 30px;
+    color: #fff;
+    box-shadow: var(--default-shadow);
+}

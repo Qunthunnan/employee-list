@@ -1,0 +1,25 @@
+.employee-item {
+    height: 70px;
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.employee-item:last-child {
+    border-bottom: none;
+}
+
+.employee-name {
+    flex-basis: 60%;
+}
+
+.employee-salary, .employee-controls {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.employee-controls {
+    column-gap: 10px;
+}

@@ -1,0 +1,38 @@
+.create-employee {
+    background-color: var(--business-blue);
+    border-radius: 5px;
+    padding: 50px 30px;
+    color: #fff;
+    box-shadow: var(--default-shadow);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.create-employee-form {
+    display: flex;
+    column-gap: 20px;
+}
+
+.create-employee-name, .create-employee-salary {
+    max-width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+}
+
+.create-employee-btn {
+    background-color: var(--business-blue);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.create-employee-btn:hover {
+    background-color: #fff;
+    color: var(--business-blue);
+}
+
+

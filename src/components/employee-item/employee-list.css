@@ -1,0 +1,6 @@
+.employee-list {
+    padding: 0px;
+    width: 100%;
+    box-shadow: var(--default-shadow);
+    border: 1px solid #00000011;
+}
