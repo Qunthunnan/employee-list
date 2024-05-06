@@ -6,12 +6,21 @@
     font-size: 20px;
 }
 
+.employee-item.promote .employee-name, .employee-item.promote .employee-salary {
+    color: #ffbc00
+}
+
 .employee-item:last-child {
     border-bottom: none;
 }
 
 .employee-name {
     flex-basis: 60%;
+}
+
+.employee-salary {
+    text-align: center;
+    border: none;
 }
 
 .employee-salary, .employee-controls {
