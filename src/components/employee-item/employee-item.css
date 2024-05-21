@@ -16,6 +16,8 @@
 
 .employee-name {
     flex-basis: 60%;
+    cursor: pointer;
+    user-select: none;
 }
 
 .employee-salary {
@@ -26,9 +28,13 @@
 .employee-salary, .employee-controls {
     flex-basis: 20%;
     display: flex;
-    justify-content: center;
 }
 
 .employee-controls {
     column-gap: 10px;
 }
+
+.star {
+    display: none;
+}
+
