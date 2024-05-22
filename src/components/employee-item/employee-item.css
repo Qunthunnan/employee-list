@@ -25,6 +25,11 @@
     border: none;
 }
 
+.employee-salary.error {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
 .employee-salary, .employee-controls {
     flex-basis: 20%;
     display: flex;

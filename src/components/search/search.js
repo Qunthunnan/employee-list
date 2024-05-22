@@ -1,13 +1,12 @@
 import './search.css';
 
-const searching = (e) => {
-    console.dir(e.target);
-    console.log(e.target.value);
-}
-
-function Search () {
+function Search ({ onSearch }) {
     return (
-        <input type="text" onChange={searching} className="search" placeholder="Знайти співробітника"/>
+        <input type="text" onChange={(e) => {
+             const searchValue = e.target.value.replace(/\P{L}/gmu, '');
+             console.log(searchValue);
+             onSearch(searchValue) }
+            } className="search" placeholder="Знайти співробітника"/>
     );
 }
 

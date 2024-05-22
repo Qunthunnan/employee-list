@@ -8,3 +8,7 @@
     flex-direction: column;
     row-gap: 30px;
 }
+.btn.btn-outline-primary.active {
+    color: var(--business-blue);
+    background: white;
+}
